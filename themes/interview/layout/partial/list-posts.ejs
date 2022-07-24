@@ -1,0 +1,5 @@
+<ol class="list-posts">
+  <%page.posts.forEach(el=>{%>
+  <li> <a href="<%-url_for(el.path)%>"><%-el.title%></a> </li>
+  <%})%>
+</ol>

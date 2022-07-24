@@ -1,0 +1,54 @@
+a {
+  color: #333;
+
+  &:hover {
+    color: #007bff;
+  }
+}
+
+.post {
+  padding: 20px;
+
+  p,
+  ul {
+    line-height: 2;
+
+    code {
+      color: #fd7e14;
+      font-weight: bold;
+    }
+  }
+
+  code {
+    font-size: 16px;
+  }
+}
+
+.category-list {
+  line-height: 2;
+
+  .category-list-item {
+    .category-list-count {
+      font-size: .5rem;
+      font-weight: bold;
+      padding-left: 5px;
+
+      &::after {
+        content: ']';
+      }
+
+      &::before {
+        content: '[';
+      }
+    }
+  }
+}
+
+.list-posts {
+  line-height: 2;
+}
+
+pre code {
+  white-space: pre;
+  word-wrap: break-word;
+}

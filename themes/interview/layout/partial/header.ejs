@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="<%-url_for('/css/index.css')%>">
+  <link rel="stylesheet" href="<%-url_for('/highlight/styles/default.min.css')%>">
+
+  <script src="<%-url_for('/highlight/highlight.min.js')%>"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+
+</head>
+
+<body>
+
+  <h1> <a href="<%-url_for('/')%>">渐进式前端面试</a> </h1>
+
+  <%- list_categories() %>
