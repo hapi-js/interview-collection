@@ -24,6 +24,9 @@ a:hover {
 .category-list {
   line-height: 2;
 }
+.category-list .category-list-item .active {
+  color: #007bff;
+}
 .category-list .category-list-item .category-list-count {
   font-size: 0.5rem;
   font-weight: bold;
@@ -43,4 +46,14 @@ a:hover {
 pre code {
   white-space: pre;
   word-wrap: break-word;
+}
+
+table {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  width: 50%;
+}
+table td,
+table th {
+  border: 1px solid gray;
 }/*# sourceMappingURL=index.css.map */

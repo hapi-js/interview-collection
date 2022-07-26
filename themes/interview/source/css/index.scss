@@ -28,6 +28,10 @@ a {
   line-height: 2;
 
   .category-list-item {
+    .active {
+      color: #007bff;
+    }
+
     .category-list-count {
       font-size: .5rem;
       font-weight: bold;
@@ -51,4 +55,15 @@ a {
 pre code {
   white-space: pre;
   word-wrap: break-word;
+}
+
+table {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  width: 50%;
+
+  td,
+  th {
+    border: 1px solid gray;
+  }
 }
